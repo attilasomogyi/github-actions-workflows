@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - name: Build documentation
+      - name: Build Documentation
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
