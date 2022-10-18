@@ -26,6 +26,8 @@ on:
         description: "Version to bump to"
         required: false
 
+  workflow_call:
+
 jobs:
   build_docs_job:
     runs-on: ubuntu-22.04
