@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.0.3...v1.1.0) (2022-10-19)
+
+
+### Features
+
+* **workflows:** add repository-template.yml ([b8f961c](https://github.com/attilasomogyi/github-actions-workflows/commit/b8f961cf945e7688ab66e0dd5683ba05836e266e))
+
 ## [1.0.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.0.2...v1.0.3) (2022-10-19)
 
 
