@@ -21,10 +21,6 @@ on:
       - "CHANGELOG.md"
 
   workflow_dispatch:
-    inputs:
-      version:
-        description: "Version to bump to"
-        required: false
 
   workflow_call:
 
