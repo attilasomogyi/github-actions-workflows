@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.0.2...v1.0.3) (2022-10-19)
+
+
+### Bug Fixes
+
+* **workflows:** fix workflow dispatch ([9d8301f](https://github.com/attilasomogyi/github-actions-workflows/commit/9d8301f8796d9da67539e1010efc1d841091a052))
+
 ## [1.0.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.0.1...v1.0.2) (2022-10-18)
 
 
