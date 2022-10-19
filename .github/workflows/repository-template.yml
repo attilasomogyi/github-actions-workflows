@@ -1,0 +1,36 @@
+name: Repository Template
+
+on:
+  workflow_dispatch:
+
+  workflow_call:
+    inputs:
+      jinja2-input-data:
+        required: true
+        type: string
+      jinja2-input-template-file:
+        required: true
+        type: string
+      jinja2-output-file:
+        required: true
+        type: string
+      commit-message:
+        required: true
+        type: string
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Repository template
+        run: |
+          pip install jinja2-cli
+          REPOSITORY_NAME=$(basename $GITHUB_REPOSITORY)
+          jinja2 --strict ${{ inputs.jinja2-input-data }} ${{ inputs.jinja2-input-template-file }} > ${{ inputs.jinja2-output-file }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ${{ inputs.commit-message }}
