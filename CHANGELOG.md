@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.1.0...v1.2.0) (2022-10-22)
+
+
+### Features
+
+* **workflows:** add new initialize-readme ([5733c04](https://github.com/attilasomogyi/github-actions-workflows/commit/5733c04be199963d8192aec8a1821c83ed3898b6))
+
 # [1.1.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.0.3...v1.1.0) (2022-10-19)
 
 
