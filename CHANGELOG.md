@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.2.0...v1.3.0) (2022-10-24)
+
+
+### Features
+
+* **workflows:** add initialize code of conduct ([3fa46f2](https://github.com/attilasomogyi/github-actions-workflows/commit/3fa46f21cbd60ea62e77ba823d00a2c27eaa4b54))
+
 # [1.2.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.1.0...v1.2.0) (2022-10-22)
 
 
