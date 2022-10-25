@@ -25,12 +25,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Repository template
+      - name: Repository Template
         run: |
           pip install jinja2-cli
           REPOSITORY_NAME=$(basename $GITHUB_REPOSITORY)
           jinja2 --strict ${{ inputs.jinja2-input-data }} ${{ inputs.jinja2-input-template-file }} > ${{ inputs.jinja2-output-file }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Committing Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: ${{ inputs.commit-message }}

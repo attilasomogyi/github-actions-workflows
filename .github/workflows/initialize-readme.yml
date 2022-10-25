@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
-  with:
-    jinja2-input-data: "-D repository_name=$REPOSITORY_NAME -D repository_owner=$GITHUB_REPOSITORY_OWNER"
-    jinja2-input-template-file: ".github/workflows/repository-templates/README.md.j2"
-    jinja2-input-output-file: "README.md"
-    commit-message: "docs(readme): update readme"
+  initialize-readme:
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
+    with:
+      jinja2-input-data: "-D repository_name=$REPOSITORY_NAME -D repository_owner=$GITHUB_REPOSITORY_OWNER"
+      jinja2-input-template-file: ".github/workflows/repository-templates/README.md.j2"
+      jinja2-input-output-file: "README.md"
+      commit-message: "docs(readme): update readme"
