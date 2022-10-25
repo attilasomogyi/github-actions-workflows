@@ -9,5 +9,5 @@ jobs:
     with:
       jinja2-input-data: "-D repository_name=$REPOSITORY_NAME -D repository_owner=$GITHUB_REPOSITORY_OWNER"
       jinja2-input-template-file: ".github/workflows/repository-templates/CODE_OF_CONDUCT.md.j2"
-      jinja2-input-output-file: "CODE_OF_CONDUCT.md"
+      jinja2-output-file: "CODE_OF_CONDUCT.md"
       commit-message: "doc(code_of_conduct): update code of conduct"
