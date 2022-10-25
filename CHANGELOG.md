@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.0...v1.3.1) (2022-10-25)
+
+
+### Bug Fixes
+
+* **workflows:** fix output file variable name ([4632e67](https://github.com/attilasomogyi/github-actions-workflows/commit/4632e6782a9bdb4d705e49afa4150420220a2c7d))
+
 # [1.3.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.2.0...v1.3.0) (2022-10-25)
 
 
