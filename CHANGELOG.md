@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.2...v1.4.0) (2022-10-26)
+
+
+### Features
+
+* **workflows:** add pull current changes feature ([f77f7b3](https://github.com/attilasomogyi/github-actions-workflows/commit/f77f7b3f0a86aa8816b1c99e36b4f391b035d1c9))
+
 ## [1.3.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.1...v1.3.2) (2022-10-25)
 
 
