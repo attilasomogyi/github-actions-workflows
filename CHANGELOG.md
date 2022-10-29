@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.5.1...v1.5.2) (2022-10-29)
+
+
+### Bug Fixes
+
+* **workflows:** fix job name in contributing workflow ([cec4d45](https://github.com/attilasomogyi/github-actions-workflows/commit/cec4d45784359bd5ec543d293f789de614f4b6cd))
+
 ## [1.5.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.5.0...v1.5.1) (2022-10-29)
 
 
