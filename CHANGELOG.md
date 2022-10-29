@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.4.0...v1.5.0) (2022-10-29)
+
+
+### Features
+
+* **workflows:** add contributing template ([96ef943](https://github.com/attilasomogyi/github-actions-workflows/commit/96ef94328aaff9fe7bdc227fa4e0906aca71c12b))
+
 # [1.4.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.2...v1.4.0) (2022-10-26)
 
 
