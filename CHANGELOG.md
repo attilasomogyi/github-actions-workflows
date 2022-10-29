@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.5.0...v1.5.1) (2022-10-29)
+
+
+### Bug Fixes
+
+* **workflows:** add autostash ([88832e8](https://github.com/attilasomogyi/github-actions-workflows/commit/88832e80ad05d567f5740b00f495cdd68ffd93b0))
+
 # [1.5.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.4.0...v1.5.0) (2022-10-29)
 
 
