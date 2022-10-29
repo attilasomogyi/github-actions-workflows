@@ -1,6 +1,6 @@
-# Contributing to template-repository Project
+# Contributing to Github Actions Workflows
 
-We would love for you to contribute to template-repository Project and help make
+We would love for you to contribute to Github Actions Workflows and help make
 it even better than it is today!  As a contributor, here are the guidelines we
 would like you to follow:
 
@@ -14,16 +14,16 @@ would like you to follow:
 
 ## Code of Conduct
 
-Help us keep Angular open and inclusive.
+Help us keep Github Actions Workflows open and inclusive.
 Please read and follow our [Code of Conduct][coc].
 
 ## Got a Question or Problem?
 
 Do not open issues for general support questions as we want to keep GitHub
 issues for bug reports and feature requests.  Instead, we recommend using [Stack
-Overflow](https://stackoverflow.com/questions/tagged/template-repository) to ask
+Overflow](https://stackoverflow.com/questions/tagged/github-actions-workflows) to ask
 support-related questions. When creating a new question on Stack Overflow, make
-sure to add the `template-repository` tag.
+sure to add the `github-actions-workflows` tag.
 
 Stack Overflow is a much better place to ask questions since:
 
@@ -88,14 +88,14 @@ reproduction, so if we don't hear back from you, we are going to close an issue
 that doesn't have enough info to be reproduced.
 
 You can file new issues by selecting from our [new issue
-templates](https://github.com/attilasomogyi/template-repository/issues/new/choose)
+templates](https://github.com/attilasomogyi/github-actions-workflows/issues/new/choose)
 and filling out the issue template.
 
 ### Submitting a Pull Request
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-1. Search [GitHub](https://github.com/attilasomogyi/template-repository/pulls) for
+1. Search [GitHub](https://github.com/attilasomogyi/attilasomogyi/pulls) for
    an open or closed PR that relates to your submission.  You don't want to
    duplicate existing efforts.
 
@@ -104,7 +104,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
    helps to ensure that we're ready to accept your work.
 
 3. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
-   the attilasomogyi/template-repository repo.
+   the attilasomogyi/github-actions-workflows repo.
 
 4. In your forked repository, make your changes in a new git branch:
 
@@ -137,14 +137,14 @@ and "rm" edited files.
    git push origin my-fix-branch
    ```
 
-10. In GitHub, send a pull request to `template-repository:main`.
+10. In GitHub, send a pull request to `github-actions-workflows:main`.
 
 ### Reviewing a Pull Request
 
-The PlantUML settings project team reserves the right not to accept pull
+The Github Actions Workflows team reserves the right not to accept pull
 requests from community members who haven't been good citizens of the community.
-Such behavior includes not following the [PlantUML Settings code of
-conduct](/CODE_OF_CONDUCT.md) and applies within or outside of PlantUML Settings
+Such behavior includes not following the [Github Actions Workflows code of
+conduct](/CODE_OF_CONDUCT.md) and applies within or outside of Github Actions Workflows
 managed channels.
 
 #### Addressing review feedback
@@ -290,7 +290,7 @@ format describes what the footer is used for and the structure it must have.
   │       │             └─⫸ Summary in present tense.
   |       |                  Not capitalized. No period at the end.
   │       │
-  │       └─⫸ Commit Scope: file name without extension
+  │       └─⫸ Commit Scope: directory name or file name without extension
   |                         (for example: changelog, code-of-conduct, readme)
   │
   └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
@@ -391,7 +391,7 @@ format: `This reverts commit <SHA>`,
 
 [coc]: /CODE_OF_CONDUCT.md
 [commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
-[github]: https://github.com/attilasomogyi/template-repository
+[github]: https://github.com/attilasomogyi/github-actions-workflows
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
 [java-style-guide]: https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md
 [rust-style-guide]: https://rustc-dev-guide.rust-lang.org/conventions.html
