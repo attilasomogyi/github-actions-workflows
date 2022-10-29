@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  initialize-readme:
+  initialize-code-of-conduct:
     uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
     with:
       jinja2-input-data: "-D repository_name=$REPOSITORY_NAME -D repository_owner=$GITHUB_REPOSITORY_OWNER"
