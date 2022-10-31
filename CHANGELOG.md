@@ -23,6 +23,31 @@
 * **workflows:** add repository-template.yml ([8f88daa](https://github.com/attilasomogyi/github-actions-workflows/commit/8f88daaceb287ba8be74f2b69045ceb4399ca181))
 * **workflows:** add workflow_call support ([ab168f6](https://github.com/attilasomogyi/github-actions-workflows/commit/ab168f6ee4c93475306df73ab1699b8a6297e554))
 
+# 1.0.0 (2022-10-31)
+
+
+### Bug Fixes
+
+* **deploy-github-pages:** set corre name ([6d36132](https://github.com/attilasomogyi/github-actions-workflows/commit/6d3613200e6a34df80c3e21498293433b468e5d1))
+* **workflows:** add autostash ([843b73d](https://github.com/attilasomogyi/github-actions-workflows/commit/843b73d34965449700dec6ad49fc37559cf8e148))
+* **workflows:** fix commit message ([9f1a348](https://github.com/attilasomogyi/github-actions-workflows/commit/9f1a348e94aa78c588174564df288aadbb930fe2))
+* **workflows:** fix job name in contributing workflow ([35ba0ed](https://github.com/attilasomogyi/github-actions-workflows/commit/35ba0edc652dc8ee8436a82ca8cc060c698343f6))
+* **workflows:** fix output file variable name ([9f5f1a9](https://github.com/attilasomogyi/github-actions-workflows/commit/9f5f1a9a579dbcf4297995fe5fd2be948d441804))
+* **workflows:** fix titles in workflows ([8e022ae](https://github.com/attilasomogyi/github-actions-workflows/commit/8e022aedd2e9e381967c5f78ce2f4c4e5424e2e6))
+* **workflows:** fix workflow dispatch ([805f62f](https://github.com/attilasomogyi/github-actions-workflows/commit/805f62f8d4a205c31d8524d31ecfd506d3cc425c))
+
+
+### Features
+
+* **workflows:** add contributing template ([ffc1b48](https://github.com/attilasomogyi/github-actions-workflows/commit/ffc1b48f37e9c0a20659e8f1410b4913780709a7))
+* **workflows:** add initialize code of conduct ([1d712ca](https://github.com/attilasomogyi/github-actions-workflows/commit/1d712ca486909268ad6e9b1b5553e67e37068d0b))
+* **workflows:** add initialize license feature ([beb0fe2](https://github.com/attilasomogyi/github-actions-workflows/commit/beb0fe297e7f593df82f8dfed1c4b7bbab7b3823))
+* **workflows:** add new initialize-readme ([4ce8f53](https://github.com/attilasomogyi/github-actions-workflows/commit/4ce8f533c8de7d08cc8a704e61813f34abaaef8c))
+* **workflows:** add new workflows ([4d6d81b](https://github.com/attilasomogyi/github-actions-workflows/commit/4d6d81bf2e285695f830f34543442c03322157b1))
+* **workflows:** add pull current changes feature ([6aebaf0](https://github.com/attilasomogyi/github-actions-workflows/commit/6aebaf04b70f2e35ed5981188e8392e3e9aee647))
+* **workflows:** add repository-template.yml ([8f88daa](https://github.com/attilasomogyi/github-actions-workflows/commit/8f88daaceb287ba8be74f2b69045ceb4399ca181))
+* **workflows:** add workflow_call support ([ab168f6](https://github.com/attilasomogyi/github-actions-workflows/commit/ab168f6ee4c93475306df73ab1699b8a6297e554))
+
 ## [1.5.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.5.1...v1.5.2) (2022-10-29)
 
 
