@@ -3,11 +3,15 @@ name: Initialize LICENSE
 on:
   workflow_dispatch:
 
+env:
+  YEAR: "date +'%Y'"
+  COPYRIGHT_HOLDERS: "git log --max-count='20' --format='%aN' | sort | uniq | grep '^[[:upper:]]'"
+
 jobs:
   initialize-license:
     uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
     with:
-      jinja2-input-data: "-D year=$(date +'%Y') -D copyright_holders=$(git log --max-count='20' --format='%aN' | sort | uniq | grep '^[[:upper:]]')"
+      jinja2-input-data: "-D year=$($YEAR) -D copyright_holders=$($COPYRIGHT_HOLDERS))"
       jinja2-input-template-file: ".github/workflows/repository-templates/LICENSE.j2"
       jinja2-output-file: "LICENSE"
       commit-message: "docs(license): update license"
