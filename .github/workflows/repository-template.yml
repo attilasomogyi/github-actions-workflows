@@ -29,6 +29,8 @@ jobs:
         run: |
           pip install jinja2-cli
           REPOSITORY_NAME=$(basename $GITHUB_REPOSITORY)
+          YEAR=$(date +'%Y')
+          COPYRIGHT_HOLDERS=$(git log --max-count='20' --format='%aN' | sort | uniq | grep '^[[:upper:]]' | sed ':a;N;$!ba;s/\n/, /g')
           jinja2 --strict ${{ inputs.jinja2-input-data }} ${{ inputs.jinja2-input-template-file }} > ${{ inputs.jinja2-output-file }}
 
       - name: Pull Current Changes
