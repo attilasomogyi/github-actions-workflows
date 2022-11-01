@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.0.0...v1.1.0) (2022-11-01)
+
+
+### Features
+
+* **workflows:** add delete old workflows runs feature ([523bca6](https://github.com/attilasomogyi/github-actions-workflows/commit/523bca6f527802160830b86c4ec888f63b6254b2))
+
 # 1.0.0 (2022-11-01)
 
 
