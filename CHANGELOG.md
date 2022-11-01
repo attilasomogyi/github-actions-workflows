@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.1.0...v1.2.0) (2022-11-01)
+
+
+### Features
+
+* **workflows:** set retain_days to 0 ([09ba853](https://github.com/attilasomogyi/github-actions-workflows/commit/09ba85307b3fa851e704e20bef79b8ae1c73db47))
+
 # [1.1.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.0.0...v1.1.0) (2022-11-01)
 
 
