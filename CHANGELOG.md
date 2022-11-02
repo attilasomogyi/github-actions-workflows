@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.2...v1.3.3) (2022-11-02)
+
+
+### Bug Fixes
+
+* **workflows:** fix permissions in workflows ([9e26bab](https://github.com/attilasomogyi/github-actions-workflows/commit/9e26bab3a610c7fcfe396ec0eb85f8891dd6d9e1))
+
 ## [1.3.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.1...v1.3.2) (2022-11-02)
 
 
