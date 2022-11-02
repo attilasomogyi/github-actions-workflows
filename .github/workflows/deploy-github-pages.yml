@@ -23,8 +23,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    permissions:
-      metadata: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -40,6 +38,9 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
       - name: Setup Repository Home Page URL
+        id: set-repository-home-page-url
+          permissions:
+            contents: write
         run: |
           gh repo edit $GITHUB_REPOSITORY --homepage "https://$GITHUB_REPOSITORY_OWNER.github.io/$(basename $GITHUB_REPOSITORY)/"
         env:
