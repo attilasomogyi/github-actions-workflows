@@ -9,7 +9,7 @@ on:
   workflow_call:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -39,8 +39,6 @@ jobs:
         uses: actions/deploy-pages@v1
       - name: Setup Repository Home Page URL
         id: set-repository-home-page-url
-          permissions:
-            contents: write
         run: |
           gh repo edit $GITHUB_REPOSITORY --homepage "https://$GITHUB_REPOSITORY_OWNER.github.io/$(basename $GITHUB_REPOSITORY)/"
         env:
