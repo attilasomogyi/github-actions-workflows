@@ -37,3 +37,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Setup Repository Home Page URL
+        run: |
+          gh repo edit --homepage https://$GITHUB_REPOSITORY_OWNER.github.io/$(basename $GITHUB_REPOSITORY)/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
