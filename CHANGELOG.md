@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.2.0...v1.3.0) (2022-11-02)
+
+
+### Features
+
+* **workflows:** add set homepage feature for deploy github pages ([ea30576](https://github.com/attilasomogyi/github-actions-workflows/commit/ea30576b0ccf7b4e08e070b408f6ec0b5d4adc29))
+
 # [1.2.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.1.0...v1.2.0) (2022-11-01)
 
 
