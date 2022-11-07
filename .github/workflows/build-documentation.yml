@@ -63,4 +63,4 @@ jobs:
           msg="docs: update documents"
           git commit -am "${msg}"
           git push deploy gh-pages --force
-        shell: bash
+        shell: dash {0}
