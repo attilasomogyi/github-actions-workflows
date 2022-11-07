@@ -1,0 +1,13 @@
+name: Initialize index.rst
+
+on:
+  workflow_dispatch:
+
+jobs:
+  initialize-index-rst:
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
+    with:
+      jinja2-input-data: "-D repository_name=$REPOSITORY_NAME"
+      jinja2-input-template-file: ".github/workflows/repository-templates/index.rst.j2"
+      jinja2-output-file: "docs/source/index.rst"
+      commit-message: "docs(source): update index.rst"
