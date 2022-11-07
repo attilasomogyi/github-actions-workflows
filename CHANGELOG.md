@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.4.0...v1.5.0) (2022-11-07)
+
+
+### Features
+
+* **workflows:** speed up execution, change bash to dash ([9fccb6d](https://github.com/attilasomogyi/github-actions-workflows/commit/9fccb6d9b1c5081e28adcb50ea0a938d6f7b4c8f))
+
 # [1.4.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.4...v1.4.0) (2022-11-07)
 
 
