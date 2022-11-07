@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.4...v1.4.0) (2022-11-07)
+
+
+### Bug Fixes
+
+* **workflows:** set access token ([25706cf](https://github.com/attilasomogyi/github-actions-workflows/commit/25706cfacd0dea6b7aa5e7f79aea6e6c7e8f1287))
+
+
+### Features
+
+* **workflows:** switch bash to dash for best execution speed ([3b39941](https://github.com/attilasomogyi/github-actions-workflows/commit/3b3994139d5d97c1e665bae315554a9a55308e1d))
+
 ## [1.3.4](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.3.3...v1.3.4) (2022-11-02)
 
 
