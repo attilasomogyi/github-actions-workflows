@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.5.0...v1.6.0) (2022-11-07)
+
+
+### Features
+
+* **workflows:** add initialize index.rst feature ([d4194e4](https://github.com/attilasomogyi/github-actions-workflows/commit/d4194e4087e04304b0b21ef6b71209d4ed8563f3))
+
 # [1.5.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.4.0...v1.5.0) (2022-11-07)
 
 
