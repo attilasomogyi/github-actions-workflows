@@ -42,4 +42,4 @@ jobs:
         run: |
           gh repo edit $GITHUB_REPOSITORY --homepage "https://$GITHUB_REPOSITORY_OWNER.github.io/$(basename $GITHUB_REPOSITORY)/"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
