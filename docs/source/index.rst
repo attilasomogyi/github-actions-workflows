@@ -1,4 +1,4 @@
-Welcome to template-repository's documentation!
+Welcome to Github Actions Workflows's documentation!
 =============================================
 
 .. note::
