@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.6.0...v1.6.1) (2022-11-07)
+
+
+### Bug Fixes
+
+* **workflows:** fix build documentation ([56b660e](https://github.com/attilasomogyi/github-actions-workflows/commit/56b660e6c6e24b4afe9f3cd60542cde89998deb5))
+
 # [1.6.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.5.0...v1.6.0) (2022-11-07)
 
 
