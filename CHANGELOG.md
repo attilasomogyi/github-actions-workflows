@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.0...v1.7.1) (2022-11-08)
+
+
+### Bug Fixes
+
+* **workflows:** fix repository template shell's arguments ([8703dcb](https://github.com/attilasomogyi/github-actions-workflows/commit/8703dcbb975e94d8f2b5d6ab4439ee76db878713))
+
 # [1.7.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.6.1...v1.7.0) (2022-11-08)
 
 
