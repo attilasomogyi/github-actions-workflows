@@ -1,10 +1,10 @@
-project = 'template-repository'
+project = 'Github Actions Workflows'
 copyright = '2022, Attila Zsolt Somogyi'
 author = 'Attila Zsolt Somogyi'
 version = "latest"
 
 github_username = 'attilasomogyi'
-github_repository = 'template-repository'
+github_repository = 'github-actions-workflows'
 
 extensions = [
     'sphinx.ext.duration',
@@ -30,7 +30,7 @@ html_static_path = ['_static']
 html_show_sourcelink = False
 html_copy_source = False
 html_show_sphinx = False
-html_favicon = '_static/images/template-repository-logo.svg'
+html_favicon = '_static/images/github-actions-workflows-logo.svg'
 
 html_css_files = [
     'css/dark.css',
