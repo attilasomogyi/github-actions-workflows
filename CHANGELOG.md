@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.6.1...v1.7.0) (2022-11-08)
+
+
+### Features
+
+* **workflows:** add initialize conf.py feature ([e357fdb](https://github.com/attilasomogyi/github-actions-workflows/commit/e357fdb1fcef13f5bcd7bdc011ae0223f788f15e))
+
 ## [1.6.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.6.0...v1.6.1) (2022-11-07)
 
 
