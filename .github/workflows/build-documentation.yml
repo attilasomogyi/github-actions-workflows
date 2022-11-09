@@ -31,6 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Pyhton Cache
         uses: actions/setup-python@v4
         with:
@@ -45,7 +46,6 @@ jobs:
           sudo apt-get install -y git rsync python3 pandoc sed
           npm install -g markdownlint-cli
           pip install -U sphinx sphinx-rtd-theme sphinx-copybutton sphinx-toolbox
-          git clone --depth 1 "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
           docs_source_pages="docs/source/pages"
           flags="--from gfm --to rst -s -o"
           pandoc CODE_OF_CONDUCT.md $flags $docs_source_pages/code-of-conduct.rst
