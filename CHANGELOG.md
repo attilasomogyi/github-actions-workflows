@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.1...v1.7.2) (2022-11-09)
+
+
+### Bug Fixes
+
+* **workflows:** fix python cache ([b3ae837](https://github.com/attilasomogyi/github-actions-workflows/commit/b3ae837052b5766c72f44ef55a21e0575c1c9ea1))
+
 ## [1.7.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.0...v1.7.1) (2022-11-08)
 
 
