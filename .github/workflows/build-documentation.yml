@@ -29,6 +29,12 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
+      - name: Pyhton Cache
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          cache: "pip"
+
       - name: Build Documentation
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
