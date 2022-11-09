@@ -22,6 +22,7 @@ jobs:
 
       - name: Setup Node Package Lock File
         run: |
+          npm init -y
           npm i --package-lock-only
         shell: dash -e {0}
 
