@@ -20,12 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Node Cache
-        uses: actions/setup-node@v3
-        with:
-          node-version: current
-          cache: "npm"
-
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
     env:
