@@ -20,6 +20,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Setup Node Package Lock File
+        run: |
+          npm i --package-lock-only
+        shell: dash -e {0}
+
       - name: Node Cache
         uses: actions/setup-node@v3
         with:
