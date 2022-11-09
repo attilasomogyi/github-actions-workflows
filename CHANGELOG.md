@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.8.3...v1.9.0) (2022-11-09)
+
+
+### Features
+
+* **workflows:** add python cache for build documentations ([62923ec](https://github.com/attilasomogyi/github-actions-workflows/commit/62923ecffe3e80c782330e2ffb3b77152f082e57))
+
 ## [1.8.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.8.2...v1.8.3) (2022-11-09)
 
 
