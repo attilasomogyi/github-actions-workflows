@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.8.2...v1.8.3) (2022-11-09)
+
+
+### Bug Fixes
+
+* **workflows:** remove package.json and package-lock.json files ([7136a48](https://github.com/attilasomogyi/github-actions-workflows/commit/7136a48228dbc496c1a67ddf182017dc911bbcdf))
+
 ## [1.8.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.8.1...v1.8.2) (2022-11-09)
 
 
