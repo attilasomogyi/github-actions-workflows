@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.8.0...v1.8.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* **workflows:** remove node init in node cache for auto-release ([b98c00e](https://github.com/attilasomogyi/github-actions-workflows/commit/b98c00ea865c2e8bdfdd1fe50b2f32c586c06574))
+
 # [1.8.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.3...v1.8.0) (2022-11-09)
 
 
