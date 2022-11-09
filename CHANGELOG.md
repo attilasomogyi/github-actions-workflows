@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.1...v1.9.2) (2022-11-09)
+
+
+### Bug Fixes
+
+* **workflows:** fix git clone section in build documentation ([b14b5a2](https://github.com/attilasomogyi/github-actions-workflows/commit/b14b5a249433707094c44c4a7784aeb2342f9ff9))
+
 ## [1.9.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.0...v1.9.1) (2022-11-09)
 
 
