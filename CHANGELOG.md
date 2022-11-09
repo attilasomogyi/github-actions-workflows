@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.2...v1.7.3) (2022-11-09)
+
+
+### Bug Fixes
+
+* **workflows:** fix use in repository template ([325c399](https://github.com/attilasomogyi/github-actions-workflows/commit/325c399a4fe42f8713ccb894a263ce9dcc3a150a))
+
 ## [1.7.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.1...v1.7.2) (2022-11-09)
 
 
