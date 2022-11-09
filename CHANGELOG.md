@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.0...v1.9.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* **workflows:** fix checkout in build documentation ([5ded5eb](https://github.com/attilasomogyi/github-actions-workflows/commit/5ded5ebcd242e1b1f1cea642b399daf11b863dc6))
+
 # [1.9.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.8.3...v1.9.0) (2022-11-09)
 
 
