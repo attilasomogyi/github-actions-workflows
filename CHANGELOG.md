@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.3...v1.8.0) (2022-11-09)
+
+
+### Bug Fixes
+
+* **workflows:** create package.json file in node cache for auto-release ([a6327ef](https://github.com/attilasomogyi/github-actions-workflows/commit/a6327ef1ba965ca5e726db9499895655f43a8521))
+* **workflows:** set current in  node cache for auto-release ([9c59c2c](https://github.com/attilasomogyi/github-actions-workflows/commit/9c59c2cb38891ee4d7b3a40a7d578b5fab6f0c0f))
+* **workflows:** set lock file in node cache for auto-release ([a243b84](https://github.com/attilasomogyi/github-actions-workflows/commit/a243b849adbb68b773649c70c07fdcb422e47b95))
+
+
+### Features
+
+* **workflows:** add node cache for auto-release ([db1a598](https://github.com/attilasomogyi/github-actions-workflows/commit/db1a5986bda0b6303dac6c78bd556d09d3fe1b09))
+
 ## [1.7.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.7.2...v1.7.3) (2022-11-09)
 
 
