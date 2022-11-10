@@ -33,6 +33,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Get APT Cache Directory
+        run: |
+          eval $(apt-config shell APT_CACHE_DIRECTORY Dir::Cache)
+          echo "APT_CACHE_DIRECTORY=/$APT_CACHE_DIRECTORY" >> $GITHUB_ENV
+        shell: dash -e {0}
+
+      - name: APT Cache
+        uses: actions/cache@v3
+        env:
+          cache-name: apt
+        with:
+          key: ${{ runner.os }}-build-${{ env.cache-name }}
+          path: ${{ env.APT_CACHE_DIRECTORY }}
+
       - name: Pyhton Cache
         uses: actions/setup-python@v4
         with:
