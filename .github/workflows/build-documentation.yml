@@ -33,19 +33,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Get APT Cache Directory
-        run: |
-          eval $(apt-config shell APT_CACHE_DIRECTORY Dir::Cache)
-          echo "APT_CACHE_DIRECTORY=/$APT_CACHE_DIRECTORY" >> $GITHUB_ENV
-        shell: dash -e {0}
-
-      - name: APT Cache
-        uses: actions/cache@v3
-        env:
-          cache-name: apt
+      - uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          key: ${{ runner.os }}-build-${{ env.cache-name }}
-          path: ${{ env.APT_CACHE_DIRECTORY }}
+          packages: pandoc
 
       - name: Pyhton Cache
         uses: actions/setup-python@v4
@@ -57,8 +47,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          sudo apt-get update
-          sudo apt-get install -y git rsync python3 pandoc sed
           npm install -g markdownlint-cli
           pip install -U sphinx sphinx-rtd-theme sphinx-copybutton sphinx-toolbox
           docs_source_pages="docs/source/pages"
