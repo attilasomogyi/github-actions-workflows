@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.3...v1.10.0) (2022-11-10)
+
+
+### Features
+
+* **workflows:** add apt workflow cache ([e82859f](https://github.com/attilasomogyi/github-actions-workflows/commit/e82859f082367c035b399c925dd1dcad01ababe7))
+
 ## [1.9.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.2...v1.9.3) (2022-11-10)
 
 
