@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.2...v1.9.3) (2022-11-10)
+
+
+### Bug Fixes
+
+* **workflows:** fix pull request path ([8ad39ce](https://github.com/attilasomogyi/github-actions-workflows/commit/8ad39ce0cf809fc963ca91d6f4fe9119c96f9882))
+
 ## [1.9.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.1...v1.9.2) (2022-11-09)
 
 
