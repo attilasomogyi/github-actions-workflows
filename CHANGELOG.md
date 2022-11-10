@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.10.0...v1.10.1) (2022-11-10)
+
+
+### Bug Fixes
+
+* **workflows:** fix apt workflow cache ([bc437de](https://github.com/attilasomogyi/github-actions-workflows/commit/bc437deedab2e0b1b6835f4339da3e67269b601b))
+
 # [1.10.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.9.3...v1.10.0) (2022-11-10)
 
 
