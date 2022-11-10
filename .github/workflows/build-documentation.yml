@@ -18,6 +18,7 @@ on:
       - "docs/**"
       - "README.md"
       - "CODE_OF_CONDUCT.md"
+      - "CONTRIBUTING.md"
       - "CHANGELOG.md"
 
   workflow_dispatch:
