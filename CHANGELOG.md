@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.10.1...v1.10.2) (2022-11-12)
+
+
+### Bug Fixes
+
+* **releaserc:** set only the main channel ([525bcf8](https://github.com/attilasomogyi/github-actions-workflows/commit/525bcf8eaa288b00c954dcf8b6991c5037302289))
+
 ## [1.10.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.10.0...v1.10.1) (2022-11-10)
 
 
