@@ -1,3 +1,10 @@
+## [1.11.6](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.5...v1.11.6) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** fix bug repost versioning ([62b1420](https://github.com/attilasomogyi/github-actions-workflows/commit/62b1420bdd50b569da1d3932c377d90743ce3c0b))
+
 ## [1.11.5](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.4...v1.11.5) (2022-11-13)
 
 
