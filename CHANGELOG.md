@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.10.2...v1.11.0) (2022-11-13)
+
+
+### Features
+
+* **workflows:** add update bugreport template feature ([4626b89](https://github.com/attilasomogyi/github-actions-workflows/commit/4626b898a63043b389d993e13b035845761e698c))
+
 ## [1.10.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.10.1...v1.10.2) (2022-11-12)
 
 
