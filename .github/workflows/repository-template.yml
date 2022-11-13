@@ -41,7 +41,7 @@ jobs:
           set -x
           LATEST_VERSION=$(git --no-pager tag | sort --version-sort | tail -1)
           jinja2 --strict ${{ inputs.jinja2-input-data }} ${{ inputs.jinja2-input-template-file }} > ${{ inputs.jinja2-output-file }}
-        shell: dash -e {0}
+        shell: bash
 
       - name: Pull Current Changes
         run: |
