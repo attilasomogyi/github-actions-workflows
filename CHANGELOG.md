@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.12.0...v1.12.1) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** fix auto release job needs ([17b9c10](https://github.com/attilasomogyi/github-actions-workflows/commit/17b9c10805385652a9235bb92cf0dd884ef5d64a))
+
 # [1.12.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.6...v1.12.0) (2022-11-13)
 
 
