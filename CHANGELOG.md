@@ -1,3 +1,17 @@
+# [1.12.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.6...v1.12.0) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** fix auto update bug report template ([ce31ace](https://github.com/attilasomogyi/github-actions-workflows/commit/ce31acecec0d6fddfffa99c4956fe3339b47670e))
+* **workflows:** fix auto update bug report template ([9cc6abd](https://github.com/attilasomogyi/github-actions-workflows/commit/9cc6abd096a751b67480687ade5c2b91c6a5ea9f))
+* **workflows:** fix auto update bug report template ([e9929c4](https://github.com/attilasomogyi/github-actions-workflows/commit/e9929c4a4272c575b152f1ff2f0f2939cb69f2e3))
+
+
+### Features
+
+* **workflows:** add auto update bug report template ([284a651](https://github.com/attilasomogyi/github-actions-workflows/commit/284a651c97ea452c1d7e27036662261dacea269e))
+
 ## [1.11.6](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.5...v1.11.6) (2022-11-13)
 
 
