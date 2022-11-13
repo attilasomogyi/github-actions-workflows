@@ -1,3 +1,10 @@
+## [1.11.5](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.4...v1.11.5) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** set no pager for git tag ([9b8e74f](https://github.com/attilasomogyi/github-actions-workflows/commit/9b8e74f5f4109dbdaf5f2a5b2d791e0c151b22f9))
+
 ## [1.11.4](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.3...v1.11.4) (2022-11-13)
 
 
