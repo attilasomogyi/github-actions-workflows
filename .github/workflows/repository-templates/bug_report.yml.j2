@@ -14,10 +14,10 @@ body:
       description: Effected component
       multiple: true
       options:
-      {% set components = components.split(',') | list() -%}
-      {% for component in components -%}
+      {%- set components = components.split(',') | list() %}
+      {%- for component in components %}
         - {{ component }}
-      {% endfor -%}
+      {%- endfor %}
     validations:
       required: true
 
@@ -28,10 +28,10 @@ body:
       description: Effected version
       multiple: false
       options:
-      {% set versions = versions.split(',') | list() -%}
-      {% for version in versions -%}
+      {%- set versions = versions.split(',') | list() %}
+      {%- for version in versions %}
         - {{ version }}
-      {% endfor -%}
+      {%- endfor %}
     validations:
       required: true
 
