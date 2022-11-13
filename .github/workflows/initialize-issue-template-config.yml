@@ -1,0 +1,13 @@
+name: Initialize ISSUE_TEMPLATE Config
+
+on:
+  workflow_dispatch:
+
+jobs:
+  initialize-readme:
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
+    with:
+      jinja2-input-data: "-D repository_name=$REPOSITORY_NAME"
+      jinja2-input-template-file: ".github/workflows/repository-templates/issue-template-config.yml.j2"
+      jinja2-output-file: ".github/ISSUE_TEMPLATE/config.yml"
+      commit-message: "docs(issue_template): update config.yml"
