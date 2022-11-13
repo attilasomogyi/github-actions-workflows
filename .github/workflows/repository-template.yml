@@ -39,6 +39,7 @@ jobs:
           COMPONENTS=$(find . -type f  -not -path '*\.git\/*' -exec basename {} \; | sort --uniqu)
           COMPONENTS=$(echo $COMPONENTS | sed -e 's/\s\+/,/g')
           set -x
+          git fetch --tags
           LATEST_VERSION=$(git --no-pager tag | sort --version-sort | tail -1)
           jinja2 --strict ${{ inputs.jinja2-input-data }} ${{ inputs.jinja2-input-template-file }} > ${{ inputs.jinja2-output-file }}
         shell: bash
