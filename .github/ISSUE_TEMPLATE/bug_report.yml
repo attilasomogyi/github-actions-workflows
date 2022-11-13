@@ -51,7 +51,9 @@ body:
         - initialize-conf-py.yml
         - initialize-contributing.yml
         - initialize-index-rst.yml
+        - initialize-issue-template-config.yml
         - initialize-readme.yml
+        - issue-template-config.yml.j2
         - make.bat
         - repository-template.yml
         - requirements.txt
@@ -68,7 +70,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.12.1
+        - v1.13.0
     validations:
       required: true
 
