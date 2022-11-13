@@ -16,7 +16,7 @@ body:
       options:
       {% set component_list = components.split(' ') %}
       {% for component in component_list %}
-        - "{{ component }}"
+        - {{ component }}
       {% endfor %}
     validations:
       required: true
@@ -30,7 +30,7 @@ body:
       options:
       {% set version_list = versions.split(' ') %}
       {% for version in version_list %}
-        - "{{ version }}"
+        - {{ version }}
       {% endfor %}
     validations:
       required: true
