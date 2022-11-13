@@ -14,7 +14,7 @@ on:
   workflow_call:
 
 jobs:
-  build:
+  auto-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,5 +25,6 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  update-bug-Report-template:
+  update-bug-report-template:
+    needs: auto-release
     uses: attilasomogyi/github-actions-workflows/.github/workflows/update-bug-report-template.yml@main
