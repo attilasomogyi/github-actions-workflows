@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.1...v1.11.2) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** fix python cache and args error in update bug report template ([fa1af6f](https://github.com/attilasomogyi/github-actions-workflows/commit/fa1af6fb70cec6802ce8bbfd4f13abef1f108a61))
+
 ## [1.11.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.0...v1.11.1) (2022-11-13)
 
 
