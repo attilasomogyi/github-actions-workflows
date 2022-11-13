@@ -14,51 +14,51 @@ body:
       description: Effected component
       multiple: true
       options:
-      - .editorconfig
-      - .gitignore
-      - .prettierrc.json
-      - .releaserc.json
-      - CHANGELOG.md
-      - CODE_OF_CONDUCT.md
-      - CODE_OF_CONDUCT.md.j2
-      - CONTRIBUTING.md
-      - CONTRIBUTING.md.j2
-      - LICENSE
-      - Makefile
-      - PULL_REQUEST_TEMPLATE.md
-      - README.md
-      - README.md.j2
-      - auto-release.yml
-      - bug_report.yml
-      - bug_report.yml.j2
-      - build-documentation.yml
-      - conf.py
-      - conf.py.j2
-      - config.yml
-      - custom.css
-      - custom.js
-      - dark.css
-      - default_dark.js
-      - default_light.js
-      - delete-old-workflow-runs.yml
-      - deploy-github-pages.yml
-      - extensions.json
-      - feature_request.yml
-      - general.css
-      - index.rst
-      - index.rst.j2
-      - initialize-code-of-conduct.yml
-      - initialize-conf-py.yml
-      - initialize-contributing.yml
-      - initialize-index-rst.yml
-      - initialize-readme.yml
-      - make.bat
-      - repository-template.yml
-      - requirements.txt
-      - settings.json
-      - theme_switcher.js
-      - update-bug-report-template.yml
-      validations:
+        - .editorconfig
+        - .gitignore
+        - .prettierrc.json
+        - .releaserc.json
+        - CHANGELOG.md
+        - CODE_OF_CONDUCT.md
+        - CODE_OF_CONDUCT.md.j2
+        - CONTRIBUTING.md
+        - CONTRIBUTING.md.j2
+        - LICENSE
+        - Makefile
+        - PULL_REQUEST_TEMPLATE.md
+        - README.md
+        - README.md.j2
+        - auto-release.yml
+        - bug_report.yml
+        - bug_report.yml.j2
+        - build-documentation.yml
+        - conf.py
+        - conf.py.j2
+        - config.yml
+        - custom.css
+        - custom.js
+        - dark.css
+        - default_dark.js
+        - default_light.js
+        - delete-old-workflow-runs.yml
+        - deploy-github-pages.yml
+        - extensions.json
+        - feature_request.yml
+        - general.css
+        - index.rst
+        - index.rst.j2
+        - initialize-code-of-conduct.yml
+        - initialize-conf-py.yml
+        - initialize-contributing.yml
+        - initialize-index-rst.yml
+        - initialize-readme.yml
+        - make.bat
+        - repository-template.yml
+        - requirements.txt
+        - settings.json
+        - theme_switcher.js
+        - update-bug-report-template.yml
+    validations:
       required: true
 
   - type: dropdown
@@ -68,8 +68,8 @@ body:
       description: Effected version
       multiple: false
       options:
-      - 
-      validations:
+        - 
+    validations:
       required: true
 
   - type: dropdown
