@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.0...v1.11.1) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** fix workflow title in update bug report template ([7d31a48](https://github.com/attilasomogyi/github-actions-workflows/commit/7d31a485a2dc640b43cf6decac2ad43154866558))
+
 # [1.11.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.10.2...v1.11.0) (2022-11-13)
 
 
