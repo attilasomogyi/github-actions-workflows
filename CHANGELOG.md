@@ -1,3 +1,10 @@
+## [1.11.4](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.3...v1.11.4) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** fix repository template jinja2 trim error ([f1293ac](https://github.com/attilasomogyi/github-actions-workflows/commit/f1293acdbfa666d2fdb0b2dcc7aed36c4184d318))
+
 ## [1.11.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.2...v1.11.3) (2022-11-13)
 
 
