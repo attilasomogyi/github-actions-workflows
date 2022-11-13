@@ -1,3 +1,10 @@
+## [1.11.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.2...v1.11.3) (2022-11-13)
+
+
+### Bug Fixes
+
+* **workflows:** fix repository template jinja2 problems ([d1961db](https://github.com/attilasomogyi/github-actions-workflows/commit/d1961db752b4545c78b93a5a5c6611409fe41987))
+
 ## [1.11.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.11.1...v1.11.2) (2022-11-13)
 
 
