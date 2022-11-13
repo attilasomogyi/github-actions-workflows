@@ -22,10 +22,8 @@ jobs:
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
-      
-      - name: Update Bug Report Template
-        uses: attilasomogyi/github-actions-workflows/.github/workflows/update-bug-report-template.yml@main
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-
+  update-bug-Report-template:
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/update-bug-report-template.yml@main
