@@ -35,6 +35,8 @@ jobs:
         run: |
           pip install jinja2-cli
           REPOSITORY_NAME=$(basename $GITHUB_REPOSITORY)
+          COMPONENTS=$(find . -type f  -not -path '*\.git\/*' -exec basename {} \; | sort --uniqu)
+          LATEST_VERSION=$(git tag | sort --version-sort | tail -1)
           jinja2 --strict ${{ inputs.jinja2-input-data }} ${{ inputs.jinja2-input-template-file }} > ${{ inputs.jinja2-output-file }}
         shell: dash -e {0}
 

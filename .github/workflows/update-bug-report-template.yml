@@ -1,0 +1,13 @@
+name: Initialize README
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-bug-report-template:
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
+    with:
+      jinja2-input-data: "-D components=$COMPONENTS -D versions=$LATEST_VERSION"
+      jinja2-input-template-file: ".github/workflows/repository-templates/bug_report.yml.j2"
+      jinja2-output-file: ".github/ISSUE_TEMPLATE/bug_report.yml"
+      commit-message: "ci(issue_template): update bug_report.yml"
