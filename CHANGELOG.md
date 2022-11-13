@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.12.1...v1.13.0) (2022-11-13)
+
+
+### Features
+
+* **workflows:** add initialize issue template config ([6e455b3](https://github.com/attilasomogyi/github-actions-workflows/commit/6e455b3547c65b639aecbc38c48389ae63be3b32))
+
 ## [1.12.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.12.0...v1.12.1) (2022-11-13)
 
 
