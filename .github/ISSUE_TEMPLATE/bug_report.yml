@@ -23,6 +23,7 @@ body:
         - CODE_OF_CONDUCT.md.j2
         - CONTRIBUTING.md
         - CONTRIBUTING.md.j2
+        - FUNDING.yml
         - LICENSE
         - Makefile
         - PULL_REQUEST_TEMPLATE.md
@@ -70,7 +71,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.13.0
+        - v1.14.0
     validations:
       required: true
 
