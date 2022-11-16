@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.14.0...v1.15.0) (2022-11-16)
+
+
+### Features
+
+* **funding:** add patreon ([9ddefe4](https://github.com/attilasomogyi/github-actions-workflows/commit/9ddefe4d8f3c8bad2f5d40c26cbac17605753b11))
+
 # [1.14.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.13.0...v1.14.0) (2022-11-16)
 
 
