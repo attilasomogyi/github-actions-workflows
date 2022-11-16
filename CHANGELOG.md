@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.13.0...v1.14.0) (2022-11-16)
+
+
+### Features
+
+* **funding:** add founding file ([71420ad](https://github.com/attilasomogyi/github-actions-workflows/commit/71420ad941dadc8bdf0b71d430cbcd23fc62c526))
+
 # [1.13.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.12.1...v1.13.0) (2022-11-13)
 
 
