@@ -30,6 +30,7 @@ body:
         - PULL_REQUEST_TEMPLATE.md
         - README.md
         - README.md.j2
+        - SUPPORT.md
         - auto-release.yml
         - bug_report.yml
         - bug_report.yml.j2
@@ -73,7 +74,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.16.0
+        - v1.17.0
     validations:
       required: true
 
