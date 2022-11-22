@@ -24,6 +24,7 @@ body:
         - CONTRIBUTING.md
         - CONTRIBUTING.md.j2
         - FUNDING.yml
+        - FUNDING.yml.j2
         - LICENSE
         - Makefile
         - PULL_REQUEST_TEMPLATE.md
@@ -61,6 +62,7 @@ body:
         - settings.json
         - theme_switcher.js
         - update-bug-report-template.yml
+        - update-funding.yml
     validations:
       required: true
 
@@ -71,7 +73,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.15.0
+        - v1.16.0
     validations:
       required: true
 
