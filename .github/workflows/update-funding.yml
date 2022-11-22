@@ -1,0 +1,13 @@
+name: Update FUNDING.yml
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-funding:
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
+    with:
+      jinja2-input-data: "-D repository_owner=$GITHUB_REPOSITORY_OWNER"
+      jinja2-input-template-file: ".github/workflows/repository-templates/FUNDING.yml.j2"
+      jinja2-output-file: ".github/FUNDING.yml"
+      commit-message: "docs(funding.yml): update funding.yml"
