@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.15.0...v1.16.0) (2022-11-22)
+
+
+### Features
+
+* **workflows:** add funding templating feature ([e5083e0](https://github.com/attilasomogyi/github-actions-workflows/commit/e5083e05e5d3fceadd6627a3899f2455d69116b0))
+
 # [1.15.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.14.0...v1.15.0) (2022-11-16)
 
 
