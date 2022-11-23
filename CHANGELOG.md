@@ -1,3 +1,14 @@
+# [1.20.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.19.0...v1.20.0) (2022-11-23)
+
+
+### Features
+
+* **workflows:** add udpate security.md workflow ([f97a211](https://github.com/attilasomogyi/github-actions-workflows/commit/f97a211b4691808003b2def5a99717977744c337))
+* **workflows:** add udpate security.md workflow ([7f2fcb2](https://github.com/attilasomogyi/github-actions-workflows/commit/7f2fcb258cfafd6a3c4a8597f9543384c81bb74d))
+* **workflows:** fix udpate security.md workflow ([0b8e322](https://github.com/attilasomogyi/github-actions-workflows/commit/0b8e3220fa7707c46bad43b2af0a8974818f78b4))
+* **workflows:** fix udpate security.md workflow call ([9cfe8d1](https://github.com/attilasomogyi/github-actions-workflows/commit/9cfe8d149bf6b60d970662a4dd76ef123215ea4e))
+* **workflows:** fix udpate security.md workflow uses section ([9fd29e7](https://github.com/attilasomogyi/github-actions-workflows/commit/9fd29e73f98fb5657c1914d1849caaa0ac7ea440))
+
 # [1.19.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.18.0...v1.19.0) (2022-11-23)
 
 
