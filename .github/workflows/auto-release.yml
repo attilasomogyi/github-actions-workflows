@@ -29,6 +29,6 @@ jobs:
     needs: auto-release
     uses: attilasomogyi/github-actions-workflows/.github/workflows/update-bug-report-template.yml@main
 
-  update-security-template:
+  update-security:
     needs: auto-release
     uses: attilasomogyi/github-action-workflows/.github/workflows/update-security.yml@main
