@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.18.0...v1.19.0) (2022-11-23)
+
+
+### Features
+
+* **workflows:** fix support.md update workflow ([81eeaf2](https://github.com/attilasomogyi/github-actions-workflows/commit/81eeaf265ec83a34311d0cf1c0fd00cd3cd43fa6))
+
 # [1.18.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.17.0...v1.18.0) (2022-11-23)
 
 
