@@ -1,7 +1,6 @@
-
 # Support
 
-First of all, we are very happy that your are using Github Actions Workflows.
+First of all, we are very happy that your are using **Github Actions Workflows**.
 We hope that there are no questions related to its use.
 But if you have any questions.
 
@@ -24,4 +23,4 @@ visible.
 To save your and our time, we will systematically close all issues that are
 requests for general support and redirect people to Stack Overflow.
 
-Thank you for your cooperation.
+*Thank you for your cooperation.*
