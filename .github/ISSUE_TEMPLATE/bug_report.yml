@@ -31,6 +31,7 @@ body:
         - README.md
         - README.md.j2
         - SUPPORT.md
+        - SUPPORT.md.j2
         - auto-release.yml
         - bug_report.yml
         - bug_report.yml.j2
@@ -64,6 +65,7 @@ body:
         - theme_switcher.js
         - update-bug-report-template.yml
         - update-funding.yml
+        - update-support.yml
     validations:
       required: true
 
@@ -74,7 +76,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.17.0
+        - v1.18.0
     validations:
       required: true
 
