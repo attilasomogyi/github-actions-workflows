@@ -30,6 +30,7 @@ body:
         - PULL_REQUEST_TEMPLATE.md
         - README.md
         - README.md.j2
+        - SECURITY.md.j2
         - SUPPORT.md
         - SUPPORT.md.j2
         - auto-release.yml
@@ -65,6 +66,7 @@ body:
         - theme_switcher.js
         - update-bug-report-template.yml
         - update-funding.yml
+        - update-security.yml
         - update-support.yml
     validations:
       required: true
@@ -76,7 +78,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.19.0
+        - v1.20.0
     validations:
       required: true
 
