@@ -76,7 +76,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.18.0
+        - v1.19.0
     validations:
       required: true
 
