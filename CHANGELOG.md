@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.20.0...v1.21.0) (2022-11-23)
+
+
+### Features
+
+* **workflows:** change to emoji symbols in security.md ([01ae4e6](https://github.com/attilasomogyi/github-actions-workflows/commit/01ae4e697093f62a06e9bc9ca431d2b8a214caa6))
+
 # [1.20.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.19.0...v1.20.0) (2022-11-23)
 
 
