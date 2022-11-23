@@ -31,4 +31,4 @@ jobs:
 
   update-security:
     needs: auto-release
-    uses: attilasomogyi/github-action-workflows/.github/workflows/update-security.yml@main
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/update-security.yml@main
