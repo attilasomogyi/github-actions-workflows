@@ -1,0 +1,13 @@
+name: Update SUPPORT.md
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-support:
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/repository-template.yml@main
+    with:
+      jinja2-input-data: "-D repository_name=$REPOSITORY_NAME"
+      jinja2-input-template-file: ".github/workflows/repository-templates/SUPPORT.md.j2"
+      jinja2-output-file: "SUPPORT.md"
+      commit-message: "docs(support): update support.md"
