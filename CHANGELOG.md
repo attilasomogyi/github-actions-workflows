@@ -1,3 +1,10 @@
+## [1.26.4](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.3...v1.26.4) (2022-11-26)
+
+
+### Bug Fixes
+
+* **workflows:** fix index.rst.j2 and fix deploy github pages tigger action ([7dddc84](https://github.com/attilasomogyi/github-actions-workflows/commit/7dddc8405d5d87e2ed13bb1daeeaeb199c7fc7e5))
+
 ## [1.26.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.2...v1.26.3) (2022-11-26)
 
 
