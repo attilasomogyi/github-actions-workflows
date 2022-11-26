@@ -1,3 +1,10 @@
+## [1.24.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.24.0...v1.24.1) (2022-11-26)
+
+
+### Bug Fixes
+
+* **workflows:** fix build documentation job's name ([175d132](https://github.com/attilasomogyi/github-actions-workflows/commit/175d1328688cedbaa29ca9fa84c386e79d66b7f1))
+
 # [1.24.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.23.1...v1.24.0) (2022-11-26)
 
 
