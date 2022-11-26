@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.23.0...v1.23.1) (2022-11-26)
+
+
+### Bug Fixes
+
+* **workflows:** fix delete old releases checkout section ([2bfe40f](https://github.com/attilasomogyi/github-actions-workflows/commit/2bfe40f4e48abf1fca382ad50fcd1e772bd19e87))
+
 # [1.23.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.22.0...v1.23.0) (2022-11-26)
 
 
