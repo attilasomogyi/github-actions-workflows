@@ -1,5 +1,13 @@
 name: Delete Old Releases
 on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
   workflow_dispatch:
 
   workflow_call:
@@ -8,13 +16,18 @@ on:
         required: true
         type: number
 
+env:
+  keep_latest: 3
+
 jobs:
   delete-old-releases:
     runs-on: ubuntu-latest
     steps:
       - name: Delete Old Releases
         run: |
-          keep_latest=${{ inputs.keep_latest }}
+          if [ -n "${{ inputs.keep_latest }}" ]; then
+            keep_latest=${{ inputs.keep_latest }}
+          fi
           if ! [[ "$keep_latest" =~ ^[0-9]+$ && "$keep_latest" -gt 0 ]]; then
              echo "Error: keep_latest variable must be pozitive integer and not zero"
              exit 1
