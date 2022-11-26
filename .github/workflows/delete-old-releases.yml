@@ -28,6 +28,7 @@ jobs:
 
       - name: Delete Old Releases
         run: |
+          set -x
           if [ -n "${{ inputs.keep_latest }}" ]; then
             keep_latest=${{ inputs.keep_latest }}
           fi
