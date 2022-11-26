@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.0...v1.26.1) (2022-11-26)
+
+
+### Bug Fixes
+
+* **workflows:** set deploy github pages branch name ([637eb65](https://github.com/attilasomogyi/github-actions-workflows/commit/637eb65a6b6b02be7c59b74a31d6295a20239b62))
+
 # [1.26.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.25.0...v1.26.0) (2022-11-26)
 
 
