@@ -1,3 +1,10 @@
+## [1.26.3](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.2...v1.26.3) (2022-11-26)
+
+
+### Bug Fixes
+
+* **workflows:** tigger delete old release to push event ([383549b](https://github.com/attilasomogyi/github-actions-workflows/commit/383549bd226c9c09fc476761de3bfefe9c8610f8))
+
 ## [1.26.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.1...v1.26.2) (2022-11-26)
 
 
