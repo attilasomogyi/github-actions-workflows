@@ -1,3 +1,10 @@
+## [1.26.2](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.1...v1.26.2) (2022-11-26)
+
+
+### Bug Fixes
+
+* **workflows:** set release type published in delete old release workflow ([90e6901](https://github.com/attilasomogyi/github-actions-workflows/commit/90e6901977e2318eb8fa722333c515cb8d3d8ae4))
+
 ## [1.26.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.0...v1.26.1) (2022-11-26)
 
 
