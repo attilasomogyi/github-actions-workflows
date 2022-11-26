@@ -43,5 +43,4 @@ jobs:
   deploy-github-pages:
     needs: build-documentation
     uses: attilasomogyi/github-actions-workflows/.github/workflows/deploy-github-pages.yml@main
-    with:
-      ACCES_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    secrets: inherit
