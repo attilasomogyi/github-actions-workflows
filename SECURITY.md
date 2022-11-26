@@ -4,8 +4,8 @@
 
 | Version  | Supported |
 | -------- | --------- |
-| v1.22.0  | ✔️         |
-| <v1.22.0 | ❌        |
+| v1.23.0  | ✔️         |
+| <v1.23.0 | ❌        |
 
 ## Reporting a Vulnerability
 
