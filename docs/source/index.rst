@@ -28,7 +28,17 @@ Contents
    pages/contributing
 
 .. toctree::
+   :caption: Support
+
+   pages/support
+
+.. toctree::
    :caption: Changelog
    :titlesonly:
 
    pages/changelog
+
+.. toctree:: 
+   :caption: Security
+
+   pages/security

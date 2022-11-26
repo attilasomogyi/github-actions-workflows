@@ -1,30 +1,6 @@
 name: Build Documentation
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "docs/**"
-      - "README.md"
-      - "CODE_OF_CONDUCT.md"
-      - "CONTRIBUTING.md"
-      - "CHANGELOG.md"
-      - "SECURITY.md"
-      - "SUPPORT.md"
-
-  pull_request:
-    branches:
-      - main
-    paths:
-      - "docs/**"
-      - "README.md"
-      - "CODE_OF_CONDUCT.md"
-      - "CONTRIBUTING.md"
-      - "CHANGELOG.md"
-      - "SECURITY.md"
-      - "SUPPORT.md"
-
   workflow_dispatch:
 
   workflow_call:
@@ -55,6 +31,8 @@ jobs:
           pip install -U sphinx sphinx-rtd-theme sphinx-copybutton sphinx-toolbox
           docs_source_pages="docs/source/pages"
           flags="--from gfm --to rst -s -o"
+          pandoc SUPPORT.md $flags $docs_source_pages/support.rst
+          pandoc SECURITY.md $flags $docs_source_pages/security.rst
           pandoc CODE_OF_CONDUCT.md $flags $docs_source_pages/code-of-conduct.rst
           pandoc CONTRIBUTING.md $flags $docs_source_pages/contributing.rst
           pandoc README.md $flags $docs_source_pages/readme.rst
