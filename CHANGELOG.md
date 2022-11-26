@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.22.0...v1.23.0) (2022-11-26)
+
+
+### Features
+
+* **workflows:** add push pull feature to delete old release feature ([d602c25](https://github.com/attilasomogyi/github-actions-workflows/commit/d602c25ad84caebb2ae4288671a6988e19ce618c))
+
 # [1.22.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.21.0...v1.22.0) (2022-11-26)
 
 
