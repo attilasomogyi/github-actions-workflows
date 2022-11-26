@@ -1,3 +1,11 @@
+## [1.26.5](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.4...v1.26.5) (2022-11-26)
+
+
+### Bug Fixes
+
+* **workflows:** fix access token in auto release ([e647c32](https://github.com/attilasomogyi/github-actions-workflows/commit/e647c3253f7b7d0529c912bc37e941ad558687f7))
+* **workflows:** fix secrets inherit in auto-release ([14a11dd](https://github.com/attilasomogyi/github-actions-workflows/commit/14a11dd0f8698d5d91c1d8378de91caabb020dd7))
+
 ## [1.26.4](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.26.3...v1.26.4) (2022-11-26)
 
 
