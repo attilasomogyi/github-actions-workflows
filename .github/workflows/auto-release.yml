@@ -36,3 +36,7 @@ jobs:
   build-documentation:
     needs: [update-bug-report-template, update-security]
     uses: attilasomogyi/github-actions-workflows/.github/workflows/build-documentation.yml@main
+
+  deploy-github-pages:
+    needs: build-documentation
+    uses: attilasomogyi/github-actions-workflows/.github/workflows/deploy-github-pages.yml@main
