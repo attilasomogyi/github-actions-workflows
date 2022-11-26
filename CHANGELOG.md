@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.24.1...v1.25.0) (2022-11-26)
+
+
+### Features
+
+* **docs:** add security and support documentation ([c49a23b](https://github.com/attilasomogyi/github-actions-workflows/commit/c49a23b27afc2a323810cd348333c0e6997b7817))
+
 ## [1.24.1](https://github.com/attilasomogyi/github-actions-workflows/compare/v1.24.0...v1.24.1) (2022-11-26)
 
 
