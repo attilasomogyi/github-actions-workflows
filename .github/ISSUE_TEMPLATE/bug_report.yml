@@ -46,6 +46,7 @@ body:
         - dark.css
         - default_dark.js
         - default_light.js
+        - delete-old-releases.yml
         - delete-old-workflow-runs.yml
         - deploy-github-pages.yml
         - extensions.json
@@ -79,7 +80,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.21.0
+        - v1.22.0
     validations:
       required: true
 
