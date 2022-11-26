@@ -12,6 +12,9 @@ on:
   workflow_dispatch:
 
   workflow_call:
+    secrets:
+      ACCESS_TOKEN:
+        required: true
 
 jobs:
   auto-release:
@@ -40,3 +43,5 @@ jobs:
   deploy-github-pages:
     needs: build-documentation
     uses: attilasomogyi/github-actions-workflows/.github/workflows/deploy-github-pages.yml@main
+    with:
+      ACCES_TOKEN: ${{ secrets.ACCESS_TOKEN }}
