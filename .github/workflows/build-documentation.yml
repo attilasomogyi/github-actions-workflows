@@ -30,7 +30,7 @@ on:
   workflow_call:
 
 jobs:
-  build_docs_job:
+  build-documentation:
     runs-on: ubuntu-22.04
 
     steps:
