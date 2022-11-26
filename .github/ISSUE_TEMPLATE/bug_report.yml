@@ -80,7 +80,7 @@ body:
       description: Effected version
       multiple: false
       options:
-        - v1.26.1
+        - v1.26.2
     validations:
       required: true
 
